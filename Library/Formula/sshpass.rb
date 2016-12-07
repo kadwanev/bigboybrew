@@ -1,9 +1,9 @@
 require 'formula'
 
 class Sshpass < Formula
-  url 'http://sourceforge.net/projects/sshpass/files/sshpass/1.05/sshpass-1.05.tar.gz'
+  url 'http://sourceforge.net/projects/sshpass/files/sshpass/1.06/sshpass-1.06.tar.gz'
   homepage 'http://sourceforge.net/projects/sshpass'
-  sha256 'c3f78752a68a0c3f62efb3332cceea0c8a1f04f7cf6b46e00ec0c3000bc8483e'
+  sha256 'c6324fcee608b99a58f9870157dfa754837f8c48be3df0f5e2f3accf145dee60'
 
   def install
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
